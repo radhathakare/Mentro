@@ -17,7 +17,7 @@ import arrow1 from './arrow.png';
 
 
 function Dashboard() {
-    const [rating, setRating] = useState(5);
+    //const [rating, setRating] = useState(5);
     // const [current,setCurrent] = useState([]);
     // const [alldata, setAlldata] = useState([one,two])
     // console.log(Data);
@@ -33,7 +33,7 @@ function Dashboard() {
                     <Col>
                         <div className='infocontainer'>
                             <h1 className='rate'>5.0</h1>
-                            <Rating initialValue={rating}  className="rating"/>
+                            <Rating   className="rating"/>
                             <h2 className='name'>Prankur Gupta</h2>
                             <h4 className='post'>SDE @Amazon</h4>
                             <p className='info'>I am Prankur Gupta, I am working as a Software Development Engineer at Amazon. I can guide you throughout your preparation phase. Trust me when I tell you this 
@@ -48,23 +48,23 @@ function Dashboard() {
                                 <a class="menu-button icon-plus" id="open-menu" href='#menu' title="Show navigation"></a>
                                 <a class="menu-button icon-minus" href="#0" title="Hide navigation"></a>
                                 <li class="menu-item">
-                                <img src={one} alt="" width={140} />
+                                <img src={one} width={140} />
                                 </li>
                                 <li class="menu-item">
-                                <img src={two} alt="" width={140} />
+                                <img src={two}  width={140} />
             
                                 </li>
                                 <li class="menu-item">
-                                <img src={three} alt="" width={140} />
+                                <img src={three}  width={140} />
                                 </li>
                                 <li class="menu-item">
-                                <img src={four} alt="" width={140} />
+                                <img src={four}  width={140} />
                                 </li>
                                 <li class="menu-item">
-                                <img src={five} alt="" width={140} />
+                                <img src={five}  width={140} />
                                 </li>
                                 <li class="menu-item">
-                                <img src={one} alt="" width={180} />
+                                <img src={one}  width={180} />
                                 </li>
                             </ul>
                            
