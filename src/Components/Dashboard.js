@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import background from './background.png';
 import one from './1.png';
 import two from './2.png';
