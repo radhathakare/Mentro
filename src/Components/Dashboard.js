@@ -12,19 +12,15 @@ import Col from 'react-bootstrap/Col';
 import { Rating } from 'react-simple-star-rating';
 import Button from 'react-bootstrap/Button';
 import arrow1 from './arrow.png';
-import { Data } from './Data';
+//import { Data } from './Data';
 
-const images = [
-    "./1.png",
-    "./2.png",
-    
-  ];
+
 
 function Dashboard() {
     const [rating, setRating] = useState(5);
-    const [current,setCurrent] = useState([]);
-    const [alldata, setAlldata] = useState([one,two])
-    console.log(Data);
+    // const [current,setCurrent] = useState([]);
+    // const [alldata, setAlldata] = useState([one,two])
+    // console.log(Data);
     
 
     return (
